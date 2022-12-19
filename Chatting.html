@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+    <head> 
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>Chatting</title> 
+    <link rel="stylesheet" href="https://firebasestorage.googleapis.com/v0/b/chatbot-76792.appspot.com/o/css.css?alt=media&token=64c34e09-9490-4d9e-9044-ab6c56777a77" type="text/css"> </link> 
+    </head> 
+    <style> pre{ user-select:none; } #look{
+    background-color:black;   
+    }   
+    </style>
+    <body> 
+    <div id="look"> 
+    <div id="cls" onclick="document.querySelector('#look').style.left='-100%'">x</div> </div>
+    <div id="m"> Chatterbatter </div>
+    <div id="o">online</div>
+    <h2>Chatterbatter</h2> 
+    <button id="key">⌨️</button>
+    <audio preload="" id="sen" src="https://firebasestorage.googleapis.com/v0/b/chatbot-76792.appspot.com/o/siundeffecd548Ringtone.mp3?alt=media&token=531c43ed-7dcb-4c61-bf65-bd6d936af099" ></audio>
+    <div id="chatscrn" >
+    <div id=btm> 
+    <textarea disabled="disabled"></textarea>
+    <div id="bta" ></div>
+    </div> 
+    <button onclick="send(),scroll()">send</button> 
+    <b>Typing</b>
+    </div> <script src="https://firebasestorage.googleapis.com/v0/b/chatbot-76792.appspot.com/o/script..js?alt=media&token=1e523c01-d4ca-4949-8130-fe2d739edc2e" ></script> 
+    <script>
+    document.querySelector("#look").ontouchmove=(e)=>{
+    var x=e.touches[0].clientX/100;
+    document.querySelector("#look").style.transform="scale("+x+","+x+") "
+    document.querySelector("#look").ontouchend=()=>{
+    document.querySelector("#look").style.transform="scale("+1+","+1+") "
+                
+    }
+    }    
+    </script>
+    </body>
+    </html>

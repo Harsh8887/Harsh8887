@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment gateway</title>
+    </head>
+    <body>
+        <h1 align="center" style="color:blue;">State bank of india Payment Gateway</h1>
+        <h2 align="center" style="color:skyblue;">SBI</h2>
+        <h2 align="center" style="color:blue;">User Personal imformation</h2>
+        <form>
+        <p>
+            Name *<input type="text" Name="Name" required>
+        </p>
+        <p>
+            Father name *<input type ="text" Name="Father name" required>
+        </p>
+        <p>
+            Mother name *<input type ="text" Name="Mother name" required>
+        </p>
+        <fieldset>
+        <legend>Gender</legend>
+        <p>
+            Male <input type="radio" Name="Gender" id="Gender">
+            Female <input type="radio" Name="Gender" id="Gender">
+            
+        </p>
+        
+        </fieldset>
+        <p>
+            Address <textarea Name="Address" id="Address" col="10" rows="1"></textarea>
+        </p>
+        <p>
+            Email <input type="emails" name="email" id="emails">
+        </p>
+        <p>
+            Mobile number <input type="number">
+        </p>
+        <h2 align="center" style="color:blue;">
+            Payment information
+        </h2>
+        <p>
+            Bank name <select name="Bank name id="Bank name">
+                <option valve="">---Select Bank Name---</option>
+                <option valve="Axis bank">Axis bank</option>
+                <option valve="State bank of india">State bank of india</option>
+                <option valve="Punjab national bank">Punjab national bank</option>
+                <option valve="HDFC Bank">HDFC Bank</option>
+                <option valve="Bank of india">Bank of india</option>
+                <option valve="Bank od baroda">Bank of baroda</option>
+                <option valve="Central bank of india">Central bank of india</option>
+                <option valve="Cannar bank">Cannar bank</option>
+            </select>
+        </p>
+        <p>
+            Card type* <select Name="Card type" id="Card type" required>
+            <option valve="">---Select a Card type---</option>
+            <option valve="Visa">Visa</option>
+            <option valve="Mastercard">Mastercard</option>
+            <option valve="Rupey card">Rupey card</option></select>
+        </p>
+        <p>
+            Card Number <input type="Number" name="Card_Number" id="Card_number">
+        </p>
+        <p>
+            Expiry date <input type="date" name="exp_date" id="exp_date">
+        </p>
+        <p>
+            CVV <input type="password" name="cvv" id="cvv">
+        </p>
+        <p>
+            Account holder name <input type="text" name="Account holder name" id="Account holder name">
+        </p>
+        <input type="reset" valve="reset">
+        <input type="Submit" valve="submit">
+        </form>
+
+    </body>
+</html>

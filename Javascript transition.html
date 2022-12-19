@@ -1,0 +1,38 @@
+
+   
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+<style type="text/css">
+img{
+    transition: width 1s ease-in-out,height 3s ease-in;
+    width:259px;
+    height:150px;
+    background-color:red;
+    
+}
+
+</style>
+    </head>
+    <body>
+        <img id="image" src="example.jpg" />
+        <button id="btn">Toogle</button>
+    </body>
+<script type="text/javascript">
+       image.style.width ='250px';
+       image.style.height ='16px';
+
+       btn.addEventListener( "click", () =>{
+       image.style.height ="196px";
+   if (image.style.width ==='250px'){
+       image.style.width ="150px";
+   }
+   else if(image.style.width ==='150px'){
+           image.style.width ="250px";
+   }
+
+    
+})
+</script>
+</html>
